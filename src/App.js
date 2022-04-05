@@ -1,9 +1,10 @@
 import './App.css';
+import Intro from './components/Intro';
 
 function App() {
   return (
-    <div className="App">
-      I'M Dilan---- Firsttt successfull deployment
+    <div>
+      <Intro/>
     </div>
   );
 }
