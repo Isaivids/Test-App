@@ -41,7 +41,7 @@
 .nav-icons{
     display: flex;
     column-gap: 1.4em;
-    justify-content: end;
+    justify-content: flex-end;
     font-size: 1.7em;
 }
 .social-icon-1{
