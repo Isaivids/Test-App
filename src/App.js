@@ -1,10 +1,17 @@
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
 import Intro from './components/Intro';
+import Navbar from './components/Navbar';
+import Hobbies from './components/Hobbies';
 
 function App() {
   return (
     <div>
-      <Intro/>
+      <Navbar/>
+      <Routes>
+        <Route path="/hobbies" element={<Hobbies/>} />
+        <Route path="/intro" element={<Intro/>} />
+      </Routes>
     </div>
   );
 }
