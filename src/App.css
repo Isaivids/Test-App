@@ -10,5 +10,5 @@ body::-webkit-scrollbar {
  
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
-  border-radius: 10px;
+  color: aquamarine;
 }

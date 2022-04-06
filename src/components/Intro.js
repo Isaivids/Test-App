@@ -1,6 +1,7 @@
 import React from 'react'
 import './Intro.css'
-import Skills from './Skills'
+import Skills from './Skills';
+import { IoIosArrowDropdownCircle } from 'react-icons/io';
 
 const Intro = () => {
   return (
@@ -17,10 +18,13 @@ const Intro = () => {
           Identifying areas for modification in existing programs and subsequently developing these modifications.
           Writing and implementing efficient code.
         </span>
+        <IoIosArrowDropdownCircle className='intro-icon'/>
         </div>
       </div>
       <div className='intro-right'>
-        Right
+        <div className='intro-right-wrapper'>
+          <h1>RIGHT</h1>
+        </div>
       </div>
     </div>
     <Skills className="skills"/>
