@@ -2,6 +2,7 @@ import React from 'react'
 import './Intro.css'
 import Skills from './Skills';
 import { IoIosArrowDropdownCircle } from 'react-icons/io';
+import man from '../images/man.png'
 
 const Intro = () => {
   return (
@@ -23,7 +24,7 @@ const Intro = () => {
       </div>
       <div className='intro-right'>
         <div className='intro-right-wrapper'>
-          <h1>RIGHT</h1>
+          <img src={man} alt="Man image" />
         </div>
       </div>
     </div>
