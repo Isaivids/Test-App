@@ -21,9 +21,9 @@ const Navbar = () => {
                 <NavLink to="/hobbies" className="nav-font" >Hobbies</NavLink>
             </div>
             <section className={menu ?'nav-icons':'nav-icons nav-active'} onClick={()=>setMenu(!menu)}>
-                <a href="https://github.com/Isaivids" target="_blank"><BsGithub className='social-icon-1'/></a>
-                <a href="https://wa.me/7868047686" target="_blank"><FaWhatsapp className='social-icon-2'/></a>
-                <a href="https://app.netlify.com/teams/isaivids/overview" target="_blank"><SiNetlify className='social-icon-3'/></a>
+                <a href="https://github.com/Isaivids" rel="noreferrer" target="_blank"><BsGithub className='social-icon-1'/></a>
+                <a href="https://wa.me/7868047686" rel="noreferrer" target="_blank"><FaWhatsapp className='social-icon-2'/></a>
+                <a href="https://app.netlify.com/teams/isaivids/overview" rel="noreferrer" target="_blank"><SiNetlify className='social-icon-3'/></a>
             </section>
             </div>
     </div>
