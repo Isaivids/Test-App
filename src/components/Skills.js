@@ -5,7 +5,11 @@ import { FaHtml5 } from 'react-icons/fa';
 import { SiAdobephotoshop } from 'react-icons/si';
 import { MdVideoSettings } from 'react-icons/md';
 import { AiFillDatabase } from 'react-icons/ai';
+import { BiCurrentLocation } from 'react-icons/bi';
+import { FaAngleDoubleDown } from 'react-icons/fa';
 
+
+import tcs from '../images/tcs.jpg'
 
 function Skills() {
 
@@ -36,7 +40,7 @@ const skills = [
             <div className='content'>
               <div>
                 <span>{skill.tech}</span>
-                <span>Expert Level : {skill.Exp}</span>
+                <span>Level : {skill.Exp}</span>
               </div>
               <div>
               {skill.icon}
@@ -47,7 +51,25 @@ const skills = [
       </div>
     </div>
     <div className='skills-right'>
-        Right
+      <div className='right-container'>
+        <div class="card">
+          <div class="card-header">
+            <img src={tcs} alt="tcs-logo" />
+          </div>
+          <div class="card-body">
+            <span class="tag">Present</span>
+            <h4>Application Developer</h4>
+            <p>To develop a modern web application from a legacy system</p>
+              <div class="user">
+                <BiCurrentLocation className='loc'/>
+                  <div class="user-info">
+                    <h5>Chennai</h5>
+                  </div>
+               </div>
+          </div>
+        </div>
+        <div className='down-arrow'><FaAngleDoubleDown/></div>
+      </div>
     </div> 
   </div>
   );
