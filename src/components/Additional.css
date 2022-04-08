@@ -10,34 +10,35 @@
     flex-direction: column;
     justify-content: center;
     row-gap: 10px;
-    width: 100vw;
+    width: 100%;
 }
 .acc{
     display: grid;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .acc-title{
     display: flex;
-    width: 60vw;
+    width: 90vw;
     font-weight: 700;
-    padding: 3% 3%;
     background-color: aqua;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 10px;
 }
 .acc-content{
+    padding: 10px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: aliceblue;
-    padding: 3% 3%;
+    text-align: center;
     height: auto;
+    width: 90vw;
 }
 @media screen and (max-width : 700px) {
-    .ad1{
-        width: 100%;
-    }
+
     .acc-content{
         display: flex;
         flex-direction: column;

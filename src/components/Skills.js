@@ -40,7 +40,7 @@ const skills = [
             <div className='content'>
               <div>
                 <span>{skill.tech}</span>
-                <span>Level : {skill.Exp}</span>
+                <span>{skill.Exp}</span>
               </div>
               <div>
               {skill.icon}
@@ -68,7 +68,6 @@ const skills = [
                </div>
           </div>
         </div>
-        <a className='down-arrow' href='#additional'><FaAngleDoubleDown/></a>
       </div>
     </div> 
   </div>
