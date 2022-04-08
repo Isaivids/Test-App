@@ -6,7 +6,6 @@ import { SiAdobephotoshop } from 'react-icons/si';
 import { MdVideoSettings } from 'react-icons/md';
 import { AiFillDatabase } from 'react-icons/ai';
 import { BiCurrentLocation } from 'react-icons/bi';
-import { FaAngleDoubleDown } from 'react-icons/fa';
 
 
 import tcs from '../images/tcs.jpg'
