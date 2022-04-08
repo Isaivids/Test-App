@@ -1,0 +1,45 @@
+.adl{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    background-color: bisque;
+    padding-top: 70px;
+}
+.accordian{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    width: 100vw;
+}
+.acc{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.acc-title{
+    display: flex;
+    width: 60vw;
+    font-weight: 700;
+    padding: 3% 3%;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+}
+.acc-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 3% 3%;
+    height: auto;
+}
+@media screen and (max-width : 700px) {
+    .ad1{
+        width: 100%;
+    }
+    .acc-content{
+        display: flex;
+        flex-direction: column;
+    }
+}

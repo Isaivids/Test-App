@@ -68,7 +68,7 @@ const skills = [
                </div>
           </div>
         </div>
-        <div className='down-arrow'><FaAngleDoubleDown/></div>
+        <a className='down-arrow' href='#additional'><FaAngleDoubleDown/></a>
       </div>
     </div> 
   </div>

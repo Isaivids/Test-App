@@ -7,6 +7,7 @@ import { FaHtml5 } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { AiOutlineVideoCameraAdd } from 'react-icons/ai';
 import man from '../images/man.png'
+import Additional from './Additional';
 
 const Intro = () => {
   return (
@@ -35,7 +36,10 @@ const Intro = () => {
         </div>
       </div>
     </div>
-    <Skills className="skills"/>
+    <div>
+    <Skills/>
+    <Additional />
+    </div>
     </>
   )
 }
