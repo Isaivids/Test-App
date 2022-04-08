@@ -169,6 +169,11 @@
         display: grid;
         grid-template-rows: 50% 50%;
     }
+    .skills-right{
+        padding-top: 10%;
+        flex: 1;
+        background-color: rgb(255, 255, 255);
+    }
     .content{
         display: flex;
         margin: 2vw;
@@ -208,6 +213,10 @@
     }
     .right-container{
         justify-content: space-between;
+    }
+    .right-container{
+        align-items: center;
+        justify-content: space-around;
     }
     
 }
