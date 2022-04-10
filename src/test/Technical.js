@@ -26,7 +26,7 @@ const Technical = () => {
   ]
   
   return (
-    <div className='tech' id="tech">
+    <div className='tech' id="skills">
       <div className='tech-left'>
         <div className='tech-left-title'>
           <h2>Technical knowledge</h2>

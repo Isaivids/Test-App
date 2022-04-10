@@ -9,8 +9,7 @@ import { FaPhotoVideo } from 'react-icons/fa'
 
 const Intro = () => {
 
-const description =["Motivated junior web developer looking for a role as full-stack web developer. Passionate about building first-class web applications. Developed an e-commerce website for a local fashion."]
-
+const description =["Motivated junior web developer looking for a role as full-stack web developer. Passionate about building first-class web applications. Developed an e-commerce website for a local fashion."];
   return (
     <>
     <div className='intro'>
@@ -29,8 +28,8 @@ const description =["Motivated junior web developer looking for a role as full-s
               <p><FaPhotoVideo/></p>
             </div>
             <div className='wrapper-left-btn'>
-              <a href='/#tech'>Tech</a>
-              <a>Demo</a>
+              <a href='#skills'>Tech</a>
+              <a href='#skills'>Demo</a>
             </div>
           </div>
         </div>
@@ -44,7 +43,7 @@ const description =["Motivated junior web developer looking for a role as full-s
       </div>
     </div>
     <div>
-      <Technical />
+      <Technical/>
     </div>
     </>
   )
