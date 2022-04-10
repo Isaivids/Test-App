@@ -29,7 +29,7 @@ const description =["Motivated junior web developer looking for a role as full-s
               <p><FaPhotoVideo/></p>
             </div>
             <div className='wrapper-left-btn'>
-              <a href='#tech'>Tech</a>
+              <a href='/#tech'>Tech</a>
               <a>Demo</a>
             </div>
           </div>
