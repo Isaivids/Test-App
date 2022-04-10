@@ -1,0 +1,103 @@
+.tech{
+    background-color: rgb(206, 255, 190);
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.tech-left{
+  width: 100%;
+  height: 100%;
+  padding: 3%;
+  background-color: var(--bg-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+.tech-left-title{
+  color: var(--main-color);
+}
+.tech-right{
+  width: 100%;
+  height: 100%;
+  padding: 3%;
+  background-color: rgb(148, 88, 10);
+}
+.tech-cards{
+  width: 100%;
+  height: 100%;
+  display: grid;
+}
+.card1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    padding: 0 10%;
+    background-color:var(--main-color);
+    border-radius: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 0;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  }
+.card1::before{
+  content: '';
+  position: absolute;
+  background-color:rgb(113, 15, 0);
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  transition: width 0.4s ease-in-out;
+  z-index: -1;
+}
+.card1:hover::before{
+  width: 100%;
+}
+.card-left{
+  color: var(--text-primary);
+}
+.card-right{
+  text-align: center;
+  font-size: 30px;
+}
+.react{
+  color: aqua;
+}
+.html{
+  color: rgb(255, 217, 0);
+}
+.mf{
+  color: rgb(255, 98, 0);
+}
+.ps{
+  color: rgb(223, 214, 255);
+}
+.vdo{
+  color: rgb(0, 237, 213);
+}
+
+@media screen and (max-width:800px) {
+  .tech{
+    display: flex;
+    flex-direction: column;
+  }
+  .tech-left{
+    flex: 1;
+  }
+  .tech-left-title{
+    font-size: 12px;
+  }
+  .tech-right{
+    flex: 1;
+  }
+  .card-left>h3{
+    font-size: 13px;
+  }
+}
+  
