@@ -1,0 +1,158 @@
+.contact{
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+}
+.right-contact{
+    flex: 1;
+    /* width: 100%;
+    height: 100%; */
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    width: 90%;
+    height: 90%;
+    text-align: center;
+}
+.dev-span{
+    padding: 25px;
+}
+.dev-span2{
+    padding: 25px;
+}
+.dev-icons>span{  
+    padding: 20px;
+    font-size: 30px;
+}
+.dev-icons>span:nth-child(2){
+    color: green;
+}
+.dev-icons>span:nth-child(3){
+    color: rgb(128, 0, 77);
+}
+.contact-form{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form>form{
+    width: 70%;
+    height: auto;
+    background-color: rgb(219, 220, 228);
+    display: grid;
+    grid-template-rows: auto;
+    gap: 2%;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+}
+form>h4{
+    text-align: center;
+    color: var(--main-color);
+    font-size: 25px;
+}
+form>div{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+form>div>p{
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+}
+form>div>label{
+    color: var(--main-color);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+.usrname,.email,.desc{
+    display: flex;
+    flex-direction: column;
+}
+.submit{
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.submit>span{
+    font-size: 10px;
+}
+button{
+    color: white;
+    font-weight: bold;
+    background-color: var(--main-color);
+    padding: 12px;
+    border: none;
+    min-width: 40%;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+   
+input[type = text], input[type = email]{
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    background: #fff;
+    border: none;
+}
+textarea{
+    width: 100%;
+    text-align:center;
+}
+input[type = text]:focus,input[type = email]:focus,textarea:focus{
+    outline: none;
+}
+textarea{
+    padding: 0 10px;
+    border: none;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:800px) {
+    .contact{
+        display: grid;
+    }
+    .contact-form{
+        flex: 1;
+        height: 100vh;
+        margin-top: 40px;
+    }
+    .right-contact{
+        flex: 1;
+    }
+    .right-contact{
+        width: 100%;
+        height: 90vh;
+    }
+    .contact-form>form{
+        width: 100%;
+        height: 100%;
+    }
+    .dev-detail{
+        width: 100%;
+        height: 90%;
+
+    }
+}

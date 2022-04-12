@@ -35,6 +35,7 @@
     font-size: 3vw;
     color: var(--main-color);
 }
+
 .content-left>p{
     font-size: 1vw;
 }
@@ -66,10 +67,9 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    width:100%;
+    width: 100%;
     column-gap: 2%;
     font-weight: bold;
-    cursor: pointer;
 }
 
 .wrapper-left-btn>a{
@@ -88,6 +88,7 @@
     color: aliceblue;
     background-color: var(--main-color);
 }
+
 .intro-right{
     background-color: var(--bg-secondary);
 }
@@ -117,13 +118,17 @@
     .intro{
         display: flex;
         flex-direction: column;
+        height: 100vh;
+        padding-top: 70px;
     }    
     .intro-left{
-        flex: 1;
+        flex: 0.5;
+
     }
     .intro-right{
-        flex: 1;
+        flex: 0.5;
     }
+
     .content-left{
         padding: 4%;
         row-gap:8%;
