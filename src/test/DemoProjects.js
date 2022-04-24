@@ -4,13 +4,13 @@ const DemoProjects = () => {
 
   const demoSites =[
     {
-      site: "E-Shopping", status: "Progress", lang: "HTML, CSS, React", img: "shop.jpg", desc: "web application for a shopping site"
+      site: "Magic Moments", status: "live", lang: "HTML, SCSS, React", img: "ps.jpg", desc: "Photographer's site",link:"https://magic-moments.netlify.app/"
     },
     {
-      site: "Calculator", status: "Progress", lang: "HTML, CSS, React", img: "calc.jpg", desc: "Calculator Application for practice"
+      site: "Calculator", status: "Progress", lang: "HTML, CSS, React", img: "calc.jpg", desc: "Calculator Application for practice",link:"https://contact-manager.netlify.app"
     },
     {
-      site: "Contact Manager", status: "live", lang: "HTML, CSS, React", img: "contact.jpg", desc: "web page for contact card "
+      site: "Contact Manager", status: "live", lang: "HTML, CSS, React", img: "contact.jpg", desc: "web page for contact card ", link:"https://contact-manager.netlify.app"
     },
   ]
 
@@ -28,7 +28,12 @@ const DemoProjects = () => {
               <img src={site.img} alt="tcs-logo" />
             </div>
             <div className="card-body">
-              <span className={site.status === "live"?"tag green" : "tag red"}>{site.status}</span>
+            <a href={site.link}
+               rel="noreferrer" target="_blank" 
+               className={site.status === "live"?"tag green" : "tag red"}>
+                 {site.status}
+            </a>
+
               <h4>{site.site}</h4>
               <p>{site.desc}</p>
                 <div className="user">
