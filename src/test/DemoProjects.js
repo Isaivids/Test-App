@@ -7,7 +7,7 @@ const DemoProjects = () => {
       site: "Magic Moments", status: "live", lang: "HTML, SCSS, React", img: "ps.jpg", desc: "Photographer's site",link:"https://magic-moments.netlify.app/"
     },
     {
-      site: "Calculator", status: "Progress", lang: "HTML, CSS, React", img: "calc.jpg", desc: "Calculator Application for practice",link:"https://contact-manager.netlify.app"
+      site: "Calculator", status: "Progress", lang: "HTML, CSS, React", img: "calc.jpg", desc: "Calculator Application for practice",link:"https://isaivids.github.io/Calculator-demo/"
     },
     {
       site: "Contact Manager", status: "live", lang: "HTML, CSS, React", img: "contact.jpg", desc: "web page for contact card ", link:"https://contact-manager.netlify.app"
