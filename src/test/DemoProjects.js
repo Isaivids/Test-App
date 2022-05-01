@@ -12,6 +12,9 @@ const DemoProjects = () => {
     {
       site: "Contact Manager", status: "live", lang: "HTML, CSS, React", img: "contact.jpg", desc: "web page for contact card ", link:"https://contact-manager.netlify.app"
     },
+    {
+      site: "Budget Tracker", status: "In progress", lang: "React, Context API, Local Storage", img: "budget.png", desc: "A complete buget manager", link:"https://ie-tracker.netlify.app/"
+    },
   ]
 
   return (
