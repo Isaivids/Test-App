@@ -4,13 +4,16 @@ const DemoProjects = () => {
 
   const demoSites =[
     {
-      site: "Magic Moments", status: "live", lang: "HTML, SCSS, React", img: "ps.jpg", desc: "Photographer's site",link:"https://magic-moments.netlify.app/"
+      site: "Rough Paper", status: "live", lang: "React-Redux & Loc Storage", img: "Todo.jpg", desc: "A simple todo app",link:"https://rough-paper.netlify.app/"
+    },
+    {
+      site: "Magic Moments", status: "live", lang: "React & Bootstrap", img: "ps.jpg", desc: "Photographer's site",link:"https://magic-moments.netlify.app/"
     },
     {
       site: "Calculator", status: "live", lang: "HTML, CSS, React", img: "calc.jpg", desc: "Calculator Application for practice",link:"https://isaivids.github.io/Calculator-demo/"
     },
     {
-      site: "Contact Manager", status: "live", lang: "HTML, CSS, React", img: "contact.jpg", desc: "web page for contact card ", link:"https://contact-manager.netlify.app"
+      site: "Contact Manager", status: "live", lang: "React & Loc Storage", img: "contact.jpg", desc: "web page for contact card ", link:"https://contact-manager.netlify.app"
     },
     {
       site: "Budget Tracker", status: "In progress", lang: "React, Context API, Local Storage", img: "budget.png", desc: "A complete buget manager", link:"https://ie-tracker.netlify.app/"
