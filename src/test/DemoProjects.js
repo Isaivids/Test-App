@@ -4,6 +4,9 @@ const DemoProjects = () => {
 
   const demoSites =[
     {
+      site: "IsaiVids", status: "live", lang: "React-Redux", img: "iLogo.jpg", desc: "Professional landing page",link:"https://isaivids.netlify.app/"
+    },
+    {
       site: "Rough Paper", status: "live", lang: "React-Redux & Loc Storage", img: "Todo.jpg", desc: "A simple todo app",link:"https://rough-paper.netlify.app/"
     },
     {
