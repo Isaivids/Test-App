@@ -1,8 +1,8 @@
-.intro{
+/* .intro{
     z-index: 1;
     background-color: rgb(238, 238, 238);
     width: 100%;
-    height: calc(100vh - 70px);
+    height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -161,4 +161,76 @@
         height: 60vw;
         background-size: cover;
     }
+} */
+
+.home {
+  background: url("../images/home_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.content >p{
+    font-size: 4em;
+    font-weight: bold;
+}
+.content > span {
+  font-size: 1em;
+  font-weight: 500;
+}
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.nav-link {
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 10px 30px;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+}
+.nav-link:nth-child(1) {
+  color: white;
+  background: #f91886;
+}
+.nav-link:nth-child(2) {
+  color: #f91886;
+  border: 2px solid #f91886;
+}
+/*hover button effects*/
+.nav-link:nth-child(1):hover {
+  color: #f91886;
+  background: white;
+}
+.nav-link:nth-child(2):hover {
+  color: #f91886;
+  border: 2px solid #f91886;
+  background: white;
+}
+
+@media screen and (max-width: 900px) {
+  .content {
+    width: 90%;
+  }
+  .content > p {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  .content > span {
+    font-size: 0.5em;
+    font-weight: 500;
+  }
 }
