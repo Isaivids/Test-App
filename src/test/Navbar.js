@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { FaCode } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { FaWhatsapp } from "react-icons/fa";
-import { SiNetlify } from "react-icons/si";
+import { SiLinkedin } from "react-icons/si";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -65,11 +65,11 @@ const Navbar = () => {
             <FaWhatsapp className="social-icon-2" />
           </a>
           <a
-            href="https://app.netlify.com/teams/isaivids/overview"
+            href="https://www.linkedin.com/in/dilan-raj"
             rel="noreferrer"
             target="_blank"
           >
-            <SiNetlify className="social-icon-3" />
+            <SiLinkedin className="social-icon-3" />
           </a>
         </div>
       </div>

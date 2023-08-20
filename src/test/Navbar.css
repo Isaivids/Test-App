@@ -60,7 +60,7 @@ h3 {
   color: var(--whatsapp);
 }
 .social-icon-3 {
-  color: var(--netlify);
+  color: #0077b5;
 }
 @media screen and (max-width: 800px) {
   .nav {
