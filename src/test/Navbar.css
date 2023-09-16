@@ -44,7 +44,7 @@ h3 {
   font-weight: 500;
 }
 .navlinks:hover {
-  color: rgb(211, 211, 211)
+  color: rgb(211, 211, 211);
 }
 .nav-icons {
   display: flex;

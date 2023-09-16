@@ -1,0 +1,36 @@
+.experience-card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  border: 0.4px solid #f91886;
+}
+
+.experience-header {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.experience-header h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.experience-header p {
+  font-size: 14px;
+  color: #f91886;
+  margin: 5px 0;
+  height: 60px;
+}
+
+.experience-date {
+  font-size: 12px;
+  color: #999;
+}
+
+.experience-description {
+  font-size: 16px;
+  color: #333;
+}

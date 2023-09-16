@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="nav-left">
         <div className="nav-name">
           <h3>Dilan Raj</h3>
-          <FaCode className="logo"/>
+          <FaCode className="logo" />
         </div>
         <div
           className={toggle ? "nav-ham change" : "nav-ham"}
@@ -40,14 +40,14 @@ const Navbar = () => {
       </div>
       <div className={toggle ? "nav-right show" : "nav-right"}>
         <NavLink
-          className={({ isActive }) => (isActive ? 'active' : 'navlinks')}
+          className={({ isActive }) => (isActive ? "active" : "navlinks")}
           to="/"
           onClick={() => setToggle(!toggle)}
         >
           Home
         </NavLink>
         <NavLink
-          className={({ isActive }) => (isActive ? 'active' : 'navlinks')}
+          className={({ isActive }) => (isActive ? "active" : "navlinks")}
           to="/contact"
           onClick={() => setToggle(!toggle)}
         >

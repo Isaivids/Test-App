@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,17 +7,17 @@
 body::-webkit-scrollbar {
   width: 0.5em;
 }
- 
+
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
 }
-  :root {
-    --main-color: rgb(0, 87, 113);
-    --text-primary: aliceblue;
-    --whatsapp:rgb(60, 255, 0);
-    --github: rgb(254, 254, 254);
-    --netlify: rgb(0, 255, 255);
-    --text-primary-hover: rgb(228, 228, 228);
-    --bg-primary: rgb(255, 255, 255);
-    --bg-secondary: rgb(225, 248, 255);
-  }
+:root {
+  --main-color: rgb(0, 87, 113);
+  --text-primary: aliceblue;
+  --whatsapp: rgb(60, 255, 0);
+  --github: rgb(254, 254, 254);
+  --netlify: rgb(0, 255, 255);
+  --text-primary-hover: rgb(228, 228, 228);
+  --bg-primary: rgb(255, 255, 255);
+  --bg-secondary: rgb(225, 248, 255);
+}
